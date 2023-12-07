@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Club Recommendations</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+header {
+background-image: url('background.jpg'); /* Replace with your background image */
+background-size: cover;
+background-position: center;
+color: #fff;
+text-align: center;
+padding: 100px 0;
+}
+nav {
+background-color: #333;
+color: #fff;
+padding: 20px 0;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+section {
+padding: 40px 0;
+}
+h1, h2 {
+text-align: center;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+height: 0;
+overflow: hidden;
+}
+.video-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.btn {
+display: inline-block;
+background-color: #007BFF;
+color: #fff;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+cursor: pointer;
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to Book Club Recommendations</h1>
+<p>Discover your next favorite book with our recommendations.</p>
+</header>
+<nav>
+<div class="container">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Books</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</nav>
+<div class="container">
+<section>
+<h2>Featured Book</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor tortor id neque
+gravida, ac interdum neque facilisis. Nulla facilisi.</p>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0"
+allowfullscreen></iframe>
+</div>
+</section>
+<section>
+<h2>Book Recommendations</h2>
+<p>Explore our latest book recommendations and find your next great read.</p>
+<a href="#" class="btn">View Recommendations</a>
+</section>
+<section>
+<h2>Contact Us</h2>
+<p>Have questions or suggestions? Feel free to contact us.</p>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br><br>
+<label for="message">Message:</label><br>
+<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+<input type="submit" value="Submit" class="btn">
+</form>
+</section>
+</div>
+<footer>
+<p>&copy; 2023 Book Club Recommendations</p>
+</footer>
+</body>
+</html>
